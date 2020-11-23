@@ -1,7 +1,7 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Рита Ярёменко](https://up.htmlacademy.ru/adaptive/21/user/173700).
-* Наставник: `Неизвестно`.
+* Наставник: [Алина Шаймиева](https://htmlacademy.ru/profile/id74223).
 
 ---
 
