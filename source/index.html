@@ -1,12 +1,202 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
+    <title>
+      HTML Academy: Седона
+    </title>
   </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
-
+  <body class="page__body">
+    <header class="page-header">
+      <a class="page-header__logo">
+        <img src="img/logotype-mobile.svg" alt="Город Седона" width="102" height="84">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">
+          <span class="visually-hidden">
+            Открыть меню
+          </span>
+        </button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list">
+            <li class="main-nav__item">
+              <a href="#" class="main-nav__link">
+                Главная
+              </a>
+            </li>
+            <li class="main-nav__item">
+              <a href="catalog.html" class="main-nav__link">
+                Фото и видео
+              </a>
+            </li>
+            <li class="main-nav__item">
+              <a href="form.html" class="main-nav__link">
+                Форма отзыва
+              </a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#" class="main-nav__link">
+                HTML ACADEMY
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="page-main">
+      <h1 class="visually-hidden">
+        Курортный город Седона
+      </h1>
+      <div class="slogan">
+        <div class="slogan__wrapper">
+          <img src="img/text-index.svg" alt="Роскошная Седона" width="282" height="214">
+        </div>
+      </div>
+      <div class="promo">
+        <div class="promo__wrapper">
+          <p class="promo__slogan">
+            Седона — небольшой городок в Аризоне, заслуживающий большего!
+          </p>
+          <p class="promo__text">
+            Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!
+          </p>
+        </div>
+      </div>
+      <section class="features">
+        <ul class="features__list">
+          <li class="features__item">
+            <h3 class="features__title">
+              Настоящий городок
+            </h3>
+            <p class="features__number">
+              — №1 —
+            </p>
+            <p class="features__text">
+              Седона не аттракцион для туристов, там течет своя жизнь
+            </p>
+            <img class="features__image" src="img/photo-city-1x.jpg" alt="Фото города Седона" width="320" height="260">
+          </li>
+          <li class="features__item">
+            <h3 class="features__title">
+              Жилье
+            </h3>
+            <p class="features__text">
+              Рекомендуем пожить в настоящем мотеле, все как в кино
+            </p>
+          </li>
+          <li class="features__item">
+            <h3 class="features__title">
+              Еда
+            </h3>
+            <p class="features__text">
+              Всегда заказывайте фирменный бургер, вы не разочаруетесь!
+            </p>
+          </li>
+          <li class="features__item">
+            <h3 class="features__title">
+              Сувениры
+            </h3>
+            <p class="features__text">
+              Не только китайского, но и местного производства!
+            </p>
+          </li>
+          <li class="features__item">
+            <h3 class="features__title">
+              Там есть мост дьявола
+            </h3>
+            <p class="features__number">
+              — №2 —
+            </p>
+            <p class="features__text">
+              Да, по нему можно пройти! Если вы осмелитесь, конечно
+            </p>
+            <img class="features__image" src="img/photo-bridge-1x.jpg" alt="Фото моста дьявола" width="320" height="260">
+          </li>
+          <li class="features__item">
+            <h3 class="features__title">
+              Небольшая площадь
+            </h3>
+            <p class="features__number">
+              — №3 —
+            </p>
+            <p class="features__text">
+              Все интересные места находятся очень близко
+            </p>
+          </li>
+          <li class="features__item">
+            <h3 class="features__title">
+              Красивая дорога
+            </h3>
+            <p class="features__number">
+              — №4 —
+            </p>
+            <p class="features__text">
+              Ехать в Седону из Лас-Вегаса совсем не скучно!
+            </p>
+          </li>
+          <li class="features__item">
+            <h3 class="features__title">
+              Мало туристов
+            </h3>
+            <p class="features__number">
+              — №5 —
+            </p>
+            <p class="features__text">
+              Большинство едет в Гранд Каньон и толпится там
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="search">
+        <h2 class="visually-hidden">Выбор гостиницы в Седоне</h2>
+        <p class="search__text">
+          <b>
+            Заинтересовались?
+          </b>
+        </p>
+        <p class="search__text">
+          Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне
+        </p>
+        <a class="search__link button" href="form.html">
+          Найти гостиницу
+        </a>
+      </section>
+      <section class="map">
+        <h2 class="visually-hidden">Местоположение Седоны в штате Аризона</h2>
+        <img src="img/map-mobile.jpg" alt="Карта штата Аризона" width="320" height="350">
+      </section>
+    </main>
+    <footer class="page-footer">
+      <p class="hashtag">
+        <b>
+          #visitsedona
+        </b>
+      </p>
+      <section class="socials">
+        <h2 class="visually-hidden">
+          Седона в социальных сетях
+        </h2>
+        <a class="socials__link socials__twitter button" href="#">
+          twitter
+        </a>
+        <a class="socials__link socials__facebook button" href="#">
+          facebook
+        </a>
+        <a class="socials__link socials__youtube button" href="#">
+          youtube
+        </a>
+      </section>
+      <section class="copyright">
+        <h2 class="visually-hidden">
+          Копирайт
+        </h2>
+        <p class="copyright__text">
+          Разработано
+        </p>
+        <a href="" class="copyright__link">
+          <img src="img/htmlacademy.svg" alt="HTML Academy" width="27" height="34">
+        </a>
+      </section>
+    </footer>
   </body>
 </html>
