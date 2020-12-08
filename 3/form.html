@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      HTML Academy: Отзыв об отелях Седоны
+    </title>
+    <base href="https://htmlacademy-adaptive.github.io/173700-sedona-21/3/">
+</head>
+  <body class="page__body">
+    <header class="page-header">
+      <a class="page-header__logo" href="index.html">
+        <img src="img/logotype-mobile.svg" alt="Город Седона" width="102" height="84">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">
+          <span class="visually-hidden">
+            Открыть меню
+          </span>
+        </button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list list">
+            <li class="main-nav__item">
+              <a href="#" class="main-nav__link">
+                Главная
+              </a>
+            </li>
+            <li class="main-nav__item">
+              <a href="catalog.html" class="main-nav__link">
+                Фото и видео
+              </a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link">
+                Форма отзыва
+              </a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#" class="main-nav__link">
+                HTML ACADEMY
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="page-main">
+      <h1 class="visually-hidden">
+        Курортный город Седона
+      </h1>
+      <section class="feedback">
+        <div class="feedback__wrapper">
+          <h2 class="visually-hidden">
+            Отзыв об отлеях Седоны
+          </h2>
+          <p class="feedback__title">
+            <b>
+              Оставьте свой отзыв
+            </b>
+          </p>
+          <p class="feedback__text feedback__text--center">
+            Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами достопримечательностях
+          </p>
+          <form class="feedback__form" action="https://echo.htmlacademy.ru" method="post">
+            <fieldset class="feedback__name">
+              <legend class="feedback__title">
+                Представьтесь:
+              </legend>
+              <label class="feedback__text">
+                Имя*:
+                <input class="feedback__item" type="text" placeholder="Петр" name="name">
+              </label>
+              <label class="feedback__text">
+                Фамилия*:
+                <input class="feedback__item" type="text" placeholder="Иванов" name="surname">
+              </label>
+              <label class="feedback__text">
+                Отчество:
+                <input class="feedback__item" type="text" placeholder="Александрович" name="patronymic">
+              </label>
+            </fieldset>
+            <fieldset class="feedback__contacts">
+              <legend class="feedback__title">
+                Контактная информация:
+              </legend>
+              <label>
+                Контактный телефон*:
+                <input class="feedback__item feedback__item--phone" type="tel" placeholder="Введите телефон" name="phone">
+              </label>
+              <label>
+                Электронная почта*:
+                <input class="feedback__item feedback__item--email" type="email" placeholder="Введите e-mail" name="email">
+              </label>
+            </fieldset>
+            <fieldset class="feedback__impression">
+              <legend class="feedback__title">
+                Ваше общее впечатление:
+              </legend>
+              <label class="feedback__item">
+                <input class="feedback__radio" type="radio" name="impression" value="positive" checked>
+                Скорее положительное
+              </label>
+              <label class="feedback__item">
+                <input class="feedback__radio" type="radio" name="impression" value="negative">
+                Скорее отрицательное
+              </label>
+              <label class="feedback__item">
+                <input class="feedback__radio" type="radio" name="impression" value="undefined">
+                Затрудняюсь ответить
+              </label>
+            </fieldset>
+            <fieldset class="feedback__attractions">
+              <legend class="feedback__title">
+              Посещенные достопримечательности:
+            </legend>
+            <label class="feedback__item">
+              <input class="feedback__checkbox" type="checkbox" name="attraction" value="devil-bridge" checked>
+              Мост Дьявола
+            </label>
+            <label class="feedback__item">
+              <input class="feedback__checkbox" type="checkbox" name="attraction" value="bell-mountain" checked>
+              Гора-Колокол
+            </label>
+            <label class="feedback__item">
+              <input class="feedback__checkbox" type="checkbox" name="attraction" value="slide-park" checked>
+              Слайд-парк
+            </label>
+            <label class="feedback__item">
+              <input class="feedback__checkbox" type="checkbox" name="attraction" value="red-mountain">
+              Красные скалы
+            </label>
+            </fieldset>
+            <fieldset class="feedback__emotions">
+              <legend class="feedback__title">
+                Опишите свои эмоции:
+              </legend>
+              <textarea class="feedback__item feeedback__textfield" name="emotion" rows="10">Опишите подробно все свои восторги</textarea>
+            </fieldset>
+            <button class="feedback__button button" type="submit">
+              Отправить отзыв
+            </button>
+            <p class="feedback__text feedback__text--left">* — обязательные поля</p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div class="page-footer__wrapper">
+        <p class="hashtag">
+          <b>
+            #visitsedona
+          </b>
+        </p>
+        <section class="socials">
+          <h2 class="visually-hidden">
+            Седона в социальных сетях
+          </h2>
+          <ul class="socials__list list">
+            <li>
+              <a class="socials__link socials__link--twitter button" href="#">
+                twitter
+              </a>
+            </li>
+            <li>
+              <a class="socials__link socials__link--facebook button" href="#">
+                facebook
+              </a>
+            </li>
+            <li>
+              <a class="socials__link socials__link--youtube button" href="#">
+                youtube
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section class="copyright">
+          <h2 class="visually-hidden">
+            Копирайт
+          </h2>
+          <p class="copyright__text">
+            Разработано
+            <a href="" class="copyright__link">
+              <img src="img/htmlacademy.svg" alt="HTML Academy" width="27" height="34">
+            </a>
+          </p>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
